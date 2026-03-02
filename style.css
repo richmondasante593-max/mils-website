@@ -1,83 +1,83 @@
-*{
-     box-sizing: border-box;
-     margin: 0;
-     padding: 0;
-     font-family: Arial, Helvetica, sans-serif;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: century;
 }
 
 nav {
-    height: 80px;
-    background-color: darkgoldenrod;
+   height: 80px;
+    background: url(spider_man_game_playstation_4_2018_4k-3840x2160.jpg);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0rem calc(100vw - 1400px) / 2;
+    padding: 0rem calc(100vw - 1300px) / 2;
 }
 
 .logo {
     color: gold;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: bold;
-    font-style: italic;
-    padding: 0 2rem;
+    font-style: bold;
+    padding: -700 -7rem;
 }
 
 nav a {
     text-decoration: none;
-    color: blue;
+    color: red;
     padding: 0 1.5rem;
 }
 
 nav a:hover {
-    color: black;
+    color: white;
 }
 
 .hero {
-    color: blue;
+    background: url(umbrella_thorn_acacia_tree-wallpaper-2560x1080.jpg);
 }
 
 .hero-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 95vh;
-    padding: 3rem calc(100vw - 1300px) / 2;
+    padding: 3rem calc(20vw - 111px) / 2;
 }
 
-.colum-left {
+.column-left {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: center;
+    justify-content: right;
     align-items: flex-start;
-    color: brown;
+    color: url(3d_cubes_4k-3840x2160.jpg);
     padding: 0rem 2rem;
 }
 
-.colum-left h1{
+.column-left h1 {
     margin-bottom: 1rem;
     font-size: 3rem;
 }
 
-.colum-left p {
-    margin-right: 2rem;
+.column-left p {
+    margin-bottom: 2rem;
     font-size: 1.5rem;
-    line-height: 2;
+    line-height: 1.5;
 }
 
 button {
     padding: 1rem 3rem;
     font-size: 1rem;
     border: none;
-    color: crimson;
-    background-color: peru;
+    color: url(6c6pqBr.png);
+    background: url(3d_cubes_4k-3840x2160.jpg);
     cursor: pointer;
 }
 
 button:hover {
-    background-color: chocolate;
-    color: hotpink;
+    background: rgb(110, 8, 8);
+    color: rgb(38, 12, 207);
 }
 
-.colum-left {
+.column-right {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,3 +88,11 @@ button:hover {
     width: 100%;
     height: 100%;
 }
+
+@media screen and (max-width: 768px) {
+.hero-container {
+    grid-template-columns: 1fr;
+}    
+}
+
+
